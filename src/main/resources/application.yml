@@ -1,7 +1,0 @@
-spring:
-  ai:
-    openai:
-      api-key: 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
-      chat:
-        options:
-          model: gpt-4.1-mini
