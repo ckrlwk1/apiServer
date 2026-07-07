@@ -3,7 +3,6 @@ package org.gaon.apiserver.settlement.service;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.gaon.apiserver.settlement.common.AiService;
 import org.gaon.apiserver.settlement.dto.*;
 import org.springframework.stereotype.Service;
 
@@ -13,7 +12,6 @@ import java.util.*;
 @RequiredArgsConstructor
 @Slf4j
 public class SettlementService {
-    private final AiService aiService;
 
     public SettlementResponse calculateSettlement(
             SettlementRequest request
